@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/02cf8a4dac.js" crossorigin="anonymous"></script>
+    <title>Uncle Dean's Burgers</title>
+</head>
+<body>
+
+<header class="header">
+    <div class="icon-container">
+        <i class="fa-solid fa-burger"></i>
+    </div> 
+    <div class="header-right">
+        <nav>
+            <ul class="navbar">
+                <a href="#hero"><li class="home">Home</li></a>
+                <a href="#menu"><li class="menu">Menu</li></a>
+                <a href="#our-story"><li class="our-story">Our story</li></a>
+                <a href="#reservation"><li class="reservation">Reservation</li></a>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+    <section id="hero">
+        <div class="hero-main">
+            <div class="hero-text">
+                <h4>ONLY $5.50!</h4>
+                <h2>Burger</h2>
+                <h3>Week</h3>
+            </div>
+            <div class="hero-img">
+                <img src="img/burger.png" alt="burger">
+            </div>
+        </div>
+    </section>
+
+    <section id="menu">
+        <div class="container">
+            <h1>Menu</h1>
+            
+            <div class="our-menu">
+                <div class="carta">
+                    <h2>Burger One</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, rem!</p>
+                    <button class="order-btn">Order now!</button>
+                </div>
+                <div class="carta">
+                    <h2>Burger two</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, deleniti!</p>
+                    <button class="order-btn">Order now!</button>
+                </div>
+                <div class="carta">
+                    <h2>Burguer three</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, culpa.</p>
+                    <button class="order-btn">Order now!</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="our-story">
+        <div class="container">
+            <h1>Our story</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque maxime repellat quaerat in, ipsam officia, dolor sapiente nemo harum animi nobis minus illo laboriosam nihil rerum? Suscipit nostrum, amet repellat nemo impedit quis soluta quia quos, vel dolor, corporis fuga debitis quibusdam at. Asperiores, minus voluptates, at et debitis excepturi accusamus libero quo quod voluptate omnis quidem iusto, molestiae perferendis odit illum! Consequatur omnis ipsum veniam numquam labore, hic inventore dolore dignissimos dolor veritatis sunt a neque! Animi dolorum ab, veniam error natus expedita ad aut delectus, officia quod iste repellendus labore optio enim praesentium eum omnis quidem, harum unde ullam inventore laudantium. Facilis corrupti deserunt reiciendis ipsa voluptatum, suscipit repudiandae voluptate ratione eius omnis, aliquid, ut quas asperiores iste nobis in ipsum. Reprehenderit accusantium consequatur error perspiciatis optio soluta illo laudantium dignissimos accusamus fugit in magnam veniam possimus similique iste.</p>
+        </div>
+    </section>
+
+    <section id="reservation">
+        <h1>Reservation</h1>
+        <h2>Book your table!</h2>
+        <div class="container">
+            <form class="reservation-form">
+                <input class="name" type="text" placeholder="Name" name="name">
+                <input class="email" type="text" placeholder="Email" name="email">
+                <input class="date" type="text" placeholder="Date" name="date" onfocus="(this.type='date')" onblur="(this.type='text')">
+                <input class="time" type="text" placeholder="Time" name="time" onfocus="(this.type='time')" onblur="(this.type='text')">
+                <input class="people" type="text" placeholder="People" name="people">
+                <input class="button" type="button" value="Find a table">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Joaquin Cofan 2023</p>
+        </div>
+        <button id="go-to-top-btn"><i class="fa-solid fa-arrow-up"></i></button>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
